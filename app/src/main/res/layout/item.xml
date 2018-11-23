@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/img_anh"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/boconganhnomuon"
+        />
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tac pham: Bo cong anh no muon"
+        android:layout_below="@+id/img_anh"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        />
+    <TextView
+        android:id="@+id/tv_theloai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="The loai: Tieu thuyet"
+        android:layout_below="@id/tv_ten"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        />
+    <TextView
+        android:id="@+id/tv_tacgia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tac gia: Lan rua"
+        android:layout_below="@id/tv_theloai"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:textAllCaps="true"/>
+</RelativeLayout>
